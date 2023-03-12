@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("Text Recognition example"),
+        title: const Text("Text Recognition App"),
       ),
       body: Center(
           child: SingleChildScrollView(
@@ -160,7 +160,7 @@ class _MyHomePageState extends State<MyHomePage> {
     } catch (e) {
       textScanning = false;
       imageFile = null;
-	  scannedText = "Error occured while scanning";
+      scannedText = "Error occured while scanning";
       setState(() {});
     }
   }
